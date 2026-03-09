@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.barra {
+    background-color: #cd77d3;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.color {
+    color: whitesmoke;
+    font-family: libre baskerville, serif;
+    text-decoration: none;
+}
+
+
+/*color para los titulos, selector de clase*/
+.titulo {
+    text-align: center;
+    color: #856887;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*color del fondo*/
+body {
+    background-color: #f2f2f2;
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*color en texto principal*/
+.rojo{
+    color: #000000;
+    background-color: rgb(238, 198, 204);
+    padding: 10px;
+}
+
+/*especificación de subtitulos*/
+.subtitulo {
+    text-decoration: underline;
+    color: #410153;
+    font-size: 32px;
+}
+
+/*color miembros*/
+ul {
+    color: rgb(237, 237, 237);
+}
+
+aside {
+    background-color: #d79fdbfe;
+    padding: 10px 40px 40px 40px;
+
+}
+
+
+/*Colores pie de página*/
+#pie {
+    background-color: #c600d4;
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+}
+
+
+.fotos--bts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #cd77d3;
+}
+
+.fotos--bts div{
+  padding: 10px;
+  text-align: center;
+}
