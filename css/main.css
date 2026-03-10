@@ -91,6 +91,15 @@ aside {
     border: 5px solid #cd77d3;
 }
 
+@media (max-width: 768px) {
+
+.fotos--bts {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+}
+
 .fotos--bts div{
   padding: 10px;
   text-align: center;
