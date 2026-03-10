@@ -45,6 +45,19 @@ body {
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+.contenedor-flex{
+    flex-direction: column;
+}
+}
+
+/*carrusel con tamaño max*/
+.carousel img{
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
 /*color en texto principal*/
 .rojo{
     color: #000000;
@@ -91,13 +104,12 @@ aside {
     border: 5px solid #cd77d3;
 }
 
+/*responsive para celular*/
 @media (max-width: 768px) {
-
 .fotos--bts {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
-
 }
 
 .fotos--bts div{
